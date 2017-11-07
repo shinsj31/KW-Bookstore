@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>광운서점[관리자용]</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/book.css" />
+		<link href="./jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+	</head>
+	
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><strong><a href="userinfo.jsp">광운서점[관리자용]</a></strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="#">도서관리</a></li>
+						<li><a href="userinfo.jsp">회원정보</a></li>
+						<li><a href="money.html">매출관리</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Banner -->
+			<section id="banner">
+				
+			</section>
+	<div class="ohyeong">
+			<!-- One --><section>
+							<h3>책 등록</h3>
+							<form method="post" action="book.jsp">
+								<div class="row uniform 50%">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="name" id="name" value="" placeholder="책이름" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="text" name="author" id="author" value="" placeholder="저자" />
+									</div>
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="publish" id="publish" value="" placeholder="출판사" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="text" name="cost" id="cost" value="" placeholder="가격" />
+									</div>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="text" name="howmany" id="howmany" value="" placeholder="재고" />
+									</div>
+									<div class="12u$">
+										<textarea name="message" id="message" placeholder="기타 도저정보를 입력해주세요" rows="6"></textarea>
+									</div>
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="등록" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+		
+				
+					
+				
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item 1</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<th><a href="#" class="button special small">폐기</a></th>
+										</tr>
+										<tr>
+											<td>Item 2</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<th><a href="#" class="button special small">폐기</a></th>
+										</tr>
+										<tr>
+											<td>Item 3</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<th><a href="#" class="button special small">폐기</a></th>
+										</tr>
+										<tr>
+											<td>Item 4</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<th><a href="#" class="button special small">폐기</a></th>
+										</tr>
+										<tr>
+											<td>Item 5</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<th><a href="#" class="button special small">폐기</a></th>
+										</tr>
+									</tbody>
+									
+								</table>
+							</div>
+
+						</div>
+						<div class="12u$">
+						<div class="select-wrapper" id="Main_category">
+							<select name="category" id="category">
+								<option value="">- Category -</option>
+								<option value="1">통합검색</option>
+								<option value="1">책 제목</option>
+								<option value="1">저자</option>
+								<option value="1">출판사</option>
+							</select>
+						</div>
+						<div id="Main_search">
+							<div class="6u 12u$(xsmall)"  id="Main_search2">
+									<input type="text" name="name" id="name" value="" placeholder="도서검색" />
+							</div>
+						</div>
+
+						<div id="Main_button">
+							<a href="#" class="button special small">검색</a>
+						</div>
+
+			
+					<br><br><br>
+					<br><br><br>
+					<br><br><br>
+					
+
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>Maecenas luctus lectus</h2>
+									<p>Perspiciatis doloremque recusandae dolor</p>
+								</header>
+							</div>
+							<div class="6u$ 12u$(medium)">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ea mollitia corporis id, distinctio sunt veritatis officiis dolore reprehenderit deleniti voluptatibus harum magna, doloremque alias quisquam minus, eaque. Feugiat quod, nesciunt! Iste quos ipsam, iusto sit esse.</p>
+								<p>Dolorum aspernatur maxime libero ratione quidem distinctio, placeat fugiat laborum voluptatum enim neque soluta vel sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia magnam exercitationem modi amet earum quia atque ipsum voluptas asperiores quas laboriosam.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="./jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+			<script src="./jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+			
+
+	</body>
+</html>

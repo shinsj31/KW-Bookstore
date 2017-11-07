@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>광운서점</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="./jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+	</head>
+	<body class="landing">
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1><strong><a href="../main/index.html">광운서점</a></strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="#">로그아웃</a></li>
+						<li><a href="#">마이룸</a></li>
+						<li><a href="#">장바구니</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Banner -->
+			<section id="banner">
+
+			<div id=username>
+				<output id=username2>aaa</output>
+
+			</div>
+			<div id=info>
+				<div id=info2>
+					<output name="id">aaa</output><br>
+					<output name="pw">aaa</output><br>
+					<output name="addr">aaa</output><br>
+					<output name="phone">aaa</output><br>
+					<output name="mailage">aaa</output><br>
+				</div>
+			</div>
+				
+			</section>
+			
+			<div class="ohyeong">
+					
+						<div class="row uniform 50%">
+							<div class="12u$">
+								조회기간<br>
+								
+								<input type="text" id="datepicker1" name="datepicker1">
+								<label id="date">~</label>
+								<input type="text" id="datepicker2" name="datepicker2">
+								
+							</div>
+
+							<div class="12u$">
+								<ul class="actions">
+									<li><input type="button" onclick="checkFrm()" value="조회" class="special" /></li>
+									
+								</ul>
+							</div>
+						</div>
+					
+			</div>
+								
+			<!-- One -->
+				<section id="one" class="wrapper style1">
+					
+					
+					<div class="12u$">
+						<div class="select-wrapper" id="Main_category">
+					
+							<select name="category" id="category">
+								<option value="">- Category -</option>
+								<option value="1">통합검색</option>
+								<option value="1">책 제목</option>
+								<option value="1">저자</option>
+								<option value="1">출판사</option>
+							</select>
+						</div>
+						<div id="Main_search">
+							<div class="6u 12u$(xsmall)"  id="Main_search2">
+									<input type="text" name="name" id="name" value="" placeholder="도서검색" />
+							</div>
+						</div>
+
+						<div id="Main_button">
+							<a href="#" class="button special small">검색</a>
+						</div>
+
+					</div>
+
+					<br><br><br>
+					<br><br><br>
+					<br><br><br>
+					
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook"></a></li>
+						<li><a href="#" class="icon fa-twitter"></a></li>
+						<li><a href="#" class="icon fa-instagram"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script src="./jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+			<script src="./jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<script>
+
+		$( "#datepicker" ).datepicker({
+			inline: true
+		});
+		$( "#datepicker1,#datepicker2" ).datepicker({
+			 dateFormat: 'yy-mm-dd'
+		});
+
+</script>
+	</body>
+</html>
